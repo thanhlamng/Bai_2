@@ -1,0 +1,22 @@
+//Abstracts
+@import "./abstracts/variable.scss";
+//Base
+@import "./base/normalize.scss";
+@import "./base/reset.scss";
+//layout
+@import "./layout//grid.scss";
+//Utils
+@import "./utils/utils.scss";
+//Components
+@import "./components/section.scss";
+@import "./components/textbox.scss";
+@import "./components/header.scss";
+@import "./components/title.scss";
+@import "./components/logo.scss";
+@import "./components/button.scss";
+@import "./components/pagenav.scss";
+@import "./components/newsfeed.scss";
+@import "./components/input.scss";
+@import "./components/left-box.scss";
+@import "./components/footer.scss";
+@import "./components/subcribe.scss";

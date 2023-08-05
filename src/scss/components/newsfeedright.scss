@@ -1,0 +1,21 @@
+.newsfeedright-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap);
+  }
+.newsfeedright-box--multi {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--multi-gap);
+
+}
+.newsfeedright-content{
+    border-radius: 5px;
+    border: 1px solid $colorGrayLine;
+    background-color: #fff;
+}
+.newsfeedright-content__img{
+    width: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,59 @@
+.header {
+  position: relative;
+  background-image: url('/assets/img/background-header.jpg');
+  background-size: 100% 100%;
+  height: 500px;
+}
+.header__bar1{
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 30px;
+  li {
+    position: relative;
+    color: $colorGrayText;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    &:hover {
+      color: $colorBlue;
+    }
+    &.active {
+      color: $colorBlackText;
+    }
+    &.active::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: calc(50% - 5px);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+}
+.header__smallbuttons {
+  display: flex;
+  gap: 20px;
+}
+.header__shoppingcart {
+  position: relative;
+  cursor: pointer;
+  &.noti::before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $colorRed;
+  }
+}

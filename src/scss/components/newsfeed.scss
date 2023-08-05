@@ -1,0 +1,40 @@
+.newsfeed-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap);
+}
+.newsfeed-box--multi {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--multi-gap);
+}
+.newsfeed-content{
+    border-radius: 5px;
+    border: 1px solid $colorGrayLine;
+    background-color: #fff;
+}
+.newsfeed-content__img{
+    width: 100%;
+    border-radius: 5px;
+}
+.newsfeed-sidebar {
+  display: flex;
+  gap: 20px;
+  &:hover {
+    color: $colorPurple;
+  }
+}
+.newsfeed-sidebar__img {
+  width: 50px;
+  height: 50px;
+  img {
+    border-radius: 5px;
+  }
+}
+.newsfeed-sidebar__description {
+  width: 65%;
+  font-size: 14px;
+  line-height: 171.429%;
+  letter-spacing: -0.3px;
+}

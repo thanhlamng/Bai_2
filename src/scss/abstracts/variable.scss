@@ -1,0 +1,38 @@
+$colorBlue: #4f77ff;
+$colorPurple: #886cff;
+$colorGreen: #34c635;
+$colorRed: #ef3737;
+$colorGrayText: #7b88a8;
+$colorGrayText2: #888682;
+$colorBlackText: #2d3958;
+$colorBlackText2: #120f1f;
+$colorGrayLine: #e7e5ea;
+$colorGrayLine2: rgba(97, 119, 152, 0.2);
+$colorGrayBox: #f8fafc;
+$colorPinkBox: #f7f5f1;
+$colorGreenUnion: #61dcdf;
+$colorYellow: #ffc623;
+//btn
+$btn: (
+  color: #111,
+  colorHover: #5e9dce,
+  duration: 600ms,
+  easing: cubic-bezier(0.77, 0, 0.175, 1)
+);
+%btnChildAbs {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  transition-property: inherit;
+  transition-duration: inherit;
+  transition-timing-function: inherit;
+}
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+  @content;
+}
+$easing: map-get($btn, 'easing');
+
+// Style
+$height: 5;
