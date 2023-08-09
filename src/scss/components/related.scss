@@ -1,0 +1,54 @@
+.related-box{
+    width: 100%;
+    border-radius: 5px;
+    background-color: $colorGrayBox;
+    padding: 20px 41px 53px 40px;
+}
+.related-title{
+    // Related Articles
+    color: #2D3958;
+    font-size: 18px;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.40px;
+    word-wrap: break-word
+}
+.related-img__container {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.related-img-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  &:hover {
+      color: $colorPurple;
+  }
+}
+
+.related-img__img {
+  width: 230px;
+  height: 200px;
+  img {
+      border-radius: 5px;
+  }
+}
+
+.related-img__description {
+  // The White-Label Software Model In Fintech
+  color: #2D3958;
+  font-size: 18px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  letter-spacing: -0.3px;
+  text-align: center;
+  &:hover {
+    color: $colorPurple;
+}
+}

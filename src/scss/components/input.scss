@@ -76,3 +76,22 @@ form {
       outline: none;
     }
   }
+  input[type="text"] {
+    background: white; 
+    margin: 0;
+    padding-left:16.39px;
+    padding-top: 15px;
+    padding-bottom: 11px;
+    font-size: 14px;
+    color: inherit;
+    border-radius: 5px; border: 0.50px #E7E5EA solid
+  }
+  input[type="text"]:focus {
+    color:$colorBlackText2;
+    }
+    .input-box::placeholder {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 17.5px; /* Adjusted left position */
+  }

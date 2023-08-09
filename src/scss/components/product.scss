@@ -1,0 +1,130 @@
+.product {
+    text-align: center;
+  }
+  
+  .product:hover .product__name {
+    color: $colorBlue;
+  }
+  .product__img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+    img {
+      transition: all 0.3s ease-in-out;
+      border-radius: 5px;
+    }
+  }
+  .product__img:hover img {
+    transform: scale(1.1);
+  }
+  .product__name {
+    font-size: 18px;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+    padding: 20px 0 15px;
+  }
+  .product__price {
+    font-size: 16px;
+    line-height: 162.5%;
+  }
+  .product__zoom {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .product-tab__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+  }
+  .product-tab__item {
+    position: relative;
+    color: #2d3958;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    &.active::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: calc(50% - 5px);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: $colorGreen;
+    }
+  }
+  .product-tab__content {
+    font-size: 16px;
+    line-height: 162.5%;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 40px 0px;
+    border-bottom: 1px solid $colorGrayLine;
+    border-top: 1px solid $colorGrayLine;
+    text-align: justify;
+  }
+  .product-similar__title {
+    text-align: center;
+    font-size: 42px;
+    line-height: 119.048%;
+    letter-spacing: -0.84px;
+    padding-bottom: 80px;
+  }
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .product-detail__title {
+    font-size: 42px;
+    line-height: 119.048%;
+    letter-spacing: -0.84px;
+  }
+  .product-detail__price {
+    font-size: 18px;
+    line-height: 155.556%;
+    letter-spacing: -0.3px;
+  }
+  .product-detail__content {
+    font-size: 16px;
+    line-height: 162.5%;
+    a {
+      color: $colorBlue;
+    }
+  }
+  .product-detail__colors-text {
+    font-size: 18px;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+  }
+  .product-detail__colors-circle {
+    display: flex;
+    gap: 5px;
+  }
+  .product-detail__info {
+    padding: 10px 0;
+    border-bottom: 1px solid $colorGrayLine;
+    border-top: 1px solid $colorGrayLine;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .product-detail__info-text {
+    font-size: 16px;
+    line-height: 162.5%;
+    letter-spacing: 0.4px;
+    span {
+      color: $colorBlue;
+    }
+  }
+  
+  
+  

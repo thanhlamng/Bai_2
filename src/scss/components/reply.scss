@@ -1,0 +1,27 @@
+.reply-section {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.input-box {
+    height: 48px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 245px;
+}
+.input-box--cmt{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
