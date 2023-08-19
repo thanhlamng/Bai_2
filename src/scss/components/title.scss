@@ -33,3 +33,21 @@
   .title__blogdescription span:nth-child(2) {
     color: #7B88A8;
   }
+  .title__container-text{
+    // Design & Branding<br/>Studio in New York
+color: #222222;
+font-size: 72px;
+font-family: Outfit;
+font-weight: 500;
+line-height: 78px;
+word-wrap: break-word
+  }
+  .title__img{
+    width: 845px;
+    height:870px;
+
+    img{
+      display: flex;
+      justify-content: flex-end;
+    }
+  }

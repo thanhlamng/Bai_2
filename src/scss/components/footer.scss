@@ -22,6 +22,15 @@
     line-height: 145.455%;
     padding-bottom: 40px;
   }
+  .footer__title-top--style2 {
+    color: #2d3958;
+    font-family: Outfit;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 116.667%;
+    letter-spacing: -2px;
+    padding-bottom: 70px;
+  }
 .footer__title-bottom {
   color: #2d3958;
   font-family: Outfit;
@@ -33,6 +42,14 @@
   span {
     color: $colorGreen;
   }
+}
+.footer__title-bottom--style2 {
+  color: $colorGrayText;
+  font-family: Outfit;
+  font-size: 22px;
+  line-height: 145.455%;
+  letter-spacing: -1px;
+  padding-bottom: 40px;
 }
 .footer2 {
     background-color: #292f3a;

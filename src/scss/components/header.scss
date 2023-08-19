@@ -4,6 +4,13 @@
   background-size: 100% 100%;
   height: 500px;
 }
+.header--main{
+  background-color:gray;
+  height: 950px;
+  background-size: 100% 100%;
+  position: relative;
+  justify-content: center;
+}
 .header__bar1{
   padding-top: 16px;
   display: flex;
@@ -57,4 +64,8 @@
     border-radius: 50%;
     background-color: $colorRed;
   }
+}
+.header__img{
+  width: 845px;
+  height: 870px;
 }

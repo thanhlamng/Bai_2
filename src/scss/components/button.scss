@@ -133,7 +133,7 @@
   text-transform: uppercase;
   cursor: pointer;
   &:hover {
-    background-color: $colorPurple;
+    background-color: $colorGreen;
   }
 }
 .button--signup {
@@ -189,4 +189,18 @@ button[type="submit"]{
   &:hover {
     background-color: $colorGreen;
   }
+}
+.button--blue{
+  background-color: $colorBlue;
+  color:#fff;
+  &:hover {
+    background-color: $colorGreen;
+  }
+}
+.button--gray{
+  color: $colorGrayText;
+  background-color: $colorGrayLine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

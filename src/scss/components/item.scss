@@ -1,0 +1,130 @@
+.item {
+    text-align: center;
+  }
+  
+  .item:hover .item__name {
+    color: $colorBlue;
+  }
+  .item__img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+    img {
+      transition: all 0.3s ease-in-out;
+      border-radius: 5px;
+    }
+  }
+  .item__img:hover img {
+    transform: scale(1.1);
+  }
+  .item__name {
+    font-size: 18px;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+    padding: 20px 0 15px;
+  }
+  .item__price {
+    font-size: 16px;
+    line-height: 162.5%;
+  }
+  .item__zoom {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .item-tab__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+  }
+  .item-tab__item {
+    position: relative;
+    color: #2d3958;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    &.active::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: calc(50% - 5px);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: $colorGreen;
+    }
+  }
+  .item-tab__content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    line-height: 162.5%;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 40px 0px;
+    border-bottom: 1px solid $colorGrayLine;
+    border-top: 1px solid $colorGrayLine;
+    text-align: justify;
+  }
+  .item-similar__title {
+    text-align: center;
+    font-size: 42px;
+    line-height: 119.048%;
+    letter-spacing: -0.84px;
+    padding-bottom: 80px;
+  }
+  .item-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .item-detail__title {
+    font-size: 42px;
+    line-height: 119.048%;
+    letter-spacing: -0.84px;
+  }
+  .item-detail__price {
+    font-size: 18px;
+    line-height: 155.556%;
+    letter-spacing: -0.3px;
+  }
+  .item-detail__content {
+    font-size: 16px;
+    line-height: 162.5%;
+    a {
+      color: $colorBlue;
+    }
+  }
+  .item-detail__options-text {
+    font-size: 18px;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+  }
+  .item-detail__options-colors {
+    display: flex;
+    gap: 5px;
+  }
+  .item-detail__info {
+    padding: 10px 0;
+    border-bottom: 1px solid $colorGrayLine;
+    border-top: 1px solid $colorGrayLine;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .item-detail__info-text {
+    font-size: 16px;
+    line-height: 162.5%;
+    letter-spacing: 0.4px;
+    span {
+      color: $colorBlue;
+    }
+  }
+  
