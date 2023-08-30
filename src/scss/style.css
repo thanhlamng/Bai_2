@@ -2627,6 +2627,7 @@ input[type=text]:focus {
   transition: 0.3s;
   text-align: center;
   height: 545px;
+  border-radius: 1.5px;
 }
 
 .card:hover {
