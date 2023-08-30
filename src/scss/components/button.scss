@@ -204,3 +204,13 @@ button[type="submit"]{
   justify-content: center;
   align-items: center;
 }
+.button--black{
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover{
+    background-color: gray;
+  }
+}

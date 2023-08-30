@@ -1,0 +1,54 @@
+.discover{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.discover-bg{
+    background-image: url("../../assets/img/header2.png");
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}   
+.discover-content{
+    flex: 1;
+    background-color: #F8FAFC;
+    padding: 211px 130px 291px 375px;
+    box-sizing: border-box;
+    overflow: auto;
+    
+    gap:50px;
+    
+}
+.discover-title{
+    // Design & Branding<br/>Studio in New York
+    color: #222222;
+    font-size: 72px;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: 78px;
+    word-wrap: break-word;
+}
+.discover-description{
+    // We create outstanding and world-class digital products, web design, apps, and branding.
+    color: #7B88A8;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+.discover-button{
+    display: flex;
+    justify-content: left;
+}
+.discover-play-btn{
+    align-items: center;
+    position: relative;
+    display:flex;
+}
+.discover-button__discover{
+    align-items: center;
+    position: relative;
+    display:flex;
+}

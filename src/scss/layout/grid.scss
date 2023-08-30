@@ -26,18 +26,18 @@
 
 @media (min-width: 768px) {
   .col {
-    width: calc(var(--col-md) / var(--grid) * 100%);
+    width: calc(var(--col-md, var(--col-sm)) / var(--grid) * 100%);
   }
 }
 
 @media (min-width: 992px) {
   .col {
-    width: calc(var(--col-lg) / var(--grid) * 100%);
+    width: calc(var(--col-lg, var(--col-md, var(--col-sm))) / var(--grid) * 100%);
   }
 }
 
 @media (min-width: 1200px) {
   .col {
-    width: calc(var(--col-xl) / var(--grid) * 100%);
+    width: calc(var(--col-xl, var(--col-lg, var(--col-md, var(--col-sm)))) / var(--grid) * 100%);
   }
 }

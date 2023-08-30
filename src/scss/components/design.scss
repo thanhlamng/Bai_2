@@ -1,0 +1,32 @@
+.design {
+    background-image: url("../../assets/img/bg3.png");
+    background-size:cover;
+    min-height:870px;
+}
+  .design-content {
+    padding-top: 211px;
+    padding-right:495px;
+    gap:50px;
+    display:grid;
+    text-align: left;
+  }
+.design-title{
+    // Design & Branding<br/>Studio in New York
+    color: #222222;
+    font-size: 72px;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: 78px;
+    word-wrap: break-word;
+    text-align: left;
+}
+.design-description{
+    // We create outstanding and world-class digital products, web design, apps, and branding.
+    color: #7B88A8;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    text-align: left;
+}

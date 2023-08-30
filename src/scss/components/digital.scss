@@ -1,0 +1,38 @@
+.digital-container {
+    display: grid;
+    padding-left: 100px;
+    padding-top:55px;
+    max-width: 369px;
+    gap:30px;
+}
+.digital__title {
+    color: var(--text-heading, #2D3958);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Headline/Headline 2 */
+font-family: Outfit;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 46px; /* 127.778% */
+letter-spacing: -1px;
+}
+.digital__description {
+    color: var(--black-200, #788190);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Paragraph/Paragraph 1 */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: -0.3px;
+}
+.digital__connect{
+    padding-top:20px;
+    color:#886CFF;
+    display: flex;
+    align-items: flex-end;
+    gap:4.5px;
+}
