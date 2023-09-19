@@ -20,6 +20,12 @@
       border-radius: 16px;
     }
   }
+  @media(max-width:1200px){
+    .project__detail {
+      justify-content: center;
+      display:flex;
+    }
+  }
   .project__scroll {
     position: absolute;
     top: -80px;
