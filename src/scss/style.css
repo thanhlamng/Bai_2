@@ -1473,7 +1473,13 @@ input[type=text]:focus {
   padding: 30px 50px 30px;
 }
 
-.related-box {
+.related {
+  border-radius: 5px;
+  border: 1px solid #e7e5ea;
+  background-color: #fff;
+}
+
+.related-container {
   width: 100%;
   border-radius: 5px;
   background-color: #f8fafc;
@@ -1528,7 +1534,7 @@ input[type=text]:focus {
   color: #886cff;
 }
 
-.cmt-title {
+.text-box-title {
   color: #2D3958;
   font-size: 18px;
   font-family: Outfit;
@@ -1538,21 +1544,21 @@ input[type=text]:focus {
   word-wrap: break-word;
 }
 
-.cmt-box {
+.text-box__comment {
   display: flex;
   flex-direction: column;
   padding: 30px 0;
   border-top: solid 1px #ccc; /* Using placeholder color for border */
 }
 
-.cmt-box--2 {
+.text-box__comment--2 {
   display: flex;
   flex-direction: column;
   padding-left: 150px;
   padding-top: 30px;
 }
 
-.comment {
+.text-box__comment__container {
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
@@ -1564,13 +1570,13 @@ input[type=text]:focus {
   border-radius: 50%;
 }
 
-.comment-details {
+.text-box__comment__details {
   display: flex;
   flex-direction: column;
   margin-left: 30px; /* Added margin from the left */
 }
 
-.name-date {
+.text-box__comment__name-date {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1595,7 +1601,7 @@ input[type=text]:focus {
   word-wrap: break-word;
 }
 
-.content {
+.text-box__comment__content {
   margin-top: 25px;
   color: #7B88A8;
   font-size: 16px;
@@ -2354,6 +2360,12 @@ input[type=text]:focus {
 }
 
 @media (max-width: 1200px) {
+  .project__detail {
+    justify-content: center;
+    display: flex;
+  }
+}
+@media (max-width: 576px) {
   .project__detail {
     justify-content: center;
     display: flex;
